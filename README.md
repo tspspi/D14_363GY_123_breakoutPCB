@@ -1,5 +1,7 @@
 # Breakout board for D14-363GY/123 CRT
 
+![Breakout board](https://raw.githubusercontent.com/tspspi/D14_363GY_123_breakoutPCB/master/crtpcb01.png)
+
 This is a simple breakout board that includes impedance
 matching networks (in this case tunes for 202 MHz - note
 that this lies outside the specs for this tube) for deflection

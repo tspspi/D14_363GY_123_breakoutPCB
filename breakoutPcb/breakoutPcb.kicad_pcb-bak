@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 13)
+    (drawings 14)
     (tracks 117)
     (zones 0)
     (modules 19)
@@ -788,6 +788,7 @@
     )
   )
 
+  (gr_line (start 76.2 76.2) (end 76.2 46.99) (layer Dwgs.User) (width 0.15))
   (dimension 20.32 (width 0.15) (layer Dwgs.User)
     (gr_text "20.320 mm" (at 66.04 125.76) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))

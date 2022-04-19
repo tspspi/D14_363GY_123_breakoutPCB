@@ -7,7 +7,7 @@
       "Application": "Pcbnew",
       "Version":     "5.1.10"
     },
-    "CreationDate":  "2022-04-07T14:12:36+02:00"
+    "CreationDate":  "2022-04-19T17:36:50+02:00"
   },
   "GeneralSpecs":
   {
@@ -19,8 +19,8 @@
     },
     "Size":
     {
-      "X": 49.150,
-      "Y": 49.150
+      "X": 50.150,
+      "Y": 50.150
     },
     "LayerNumber": 2,
     "BoardThickness":  1.600
@@ -50,36 +50,6 @@
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "breakoutPcb-F_Paste.gbr",
-      "FileFunction":  "SolderPaste,Top",
-      "FilePolarity":  "Positive"
-    },
-    {
-      "Path":  "breakoutPcb-B_Paste.gbr",
-      "FileFunction":  "SolderPaste,Bot",
-      "FilePolarity":  "Positive"
-    },
-    {
-      "Path":  "breakoutPcb-F_SilkS.gbr",
-      "FileFunction":  "Legend,Top",
-      "FilePolarity":  "Positive"
-    },
-    {
-      "Path":  "breakoutPcb-B_SilkS.gbr",
-      "FileFunction":  "Legend,Bot",
-      "FilePolarity":  "Positive"
-    },
-    {
-      "Path":  "breakoutPcb-F_Mask.gbr",
-      "FileFunction":  "SolderMask,Top",
-      "FilePolarity":  "Negative"
-    },
-    {
-      "Path":  "breakoutPcb-B_Mask.gbr",
-      "FileFunction":  "SolderMask,Bot",
-      "FilePolarity":  "Negative"
-    },
-    {
       "Path":  "breakoutPcb-Edge_Cuts.gbr",
       "FileFunction":  "Profile",
       "FilePolarity":  "Positive"
@@ -87,18 +57,6 @@
   ],
   "MaterialStackup":
   [
-    {
-      "Type":  "Legend",
-      "Notes":  "Layer F.SilkS"
-    },
-    {
-      "Type":  "SolderPaste",
-      "Notes":  "Layer F.Paste"
-    },
-    {
-      "Type":  "SolderMask",
-      "Notes":  "Layer F.Mask"
-    },
     {
       "Type":  "Copper",
       "Notes":  "Layer F.Cu"
@@ -111,18 +69,6 @@
     {
       "Type":  "Copper",
       "Notes":  "Layer B.Cu"
-    },
-    {
-      "Type":  "SolderMask",
-      "Notes":  "Layer B.Mask"
-    },
-    {
-      "Type":  "SolderPaste",
-      "Notes":  "Layer B.Paste"
-    },
-    {
-      "Type":  "Legend",
-      "Notes":  "Layer B.SilkS"
     }
   ]
 }

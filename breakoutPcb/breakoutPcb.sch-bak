@@ -35,56 +35,12 @@ F 3 " ~" H 3150 3000 50  0001 C CNN
 	1    3150 3000
 	-1   0    0    1   
 $EndComp
-$Comp
-L Connector:Conn_Coaxial J2
-U 1 1 624DADD5
-P 5650 1300
-F 0 "J2" V 5887 1229 50  0000 C CNN
-F 1 "ConY1" V 5796 1229 50  0000 C CNN
-F 2 "Connector_Coaxial:SMA_Amphenol_132134-16_Vertical" H 5650 1300 50  0001 C CNN
-F 3 " ~" H 5650 1300 50  0001 C CNN
-	1    5650 1300
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:C_Small C1
-U 1 1 624DE011
-P 5650 1750
-F 0 "C1" H 5742 1796 50  0000 L CNN
-F 1 "18 pF" H 5742 1705 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0201_0603Metric" H 5650 1750 50  0001 C CNN
-F 3 "~" H 5650 1750 50  0001 C CNN
-	1    5650 1750
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:L_Small L2
-U 1 1 624DEA8F
-P 5850 2100
-F 0 "L2" V 6035 2100 50  0000 C CNN
-F 1 "70 nH" V 5944 2100 50  0000 C CNN
-F 2 "Wurth:Wurth4035" H 5850 2100 50  0001 C CNN
-F 3 "~" H 5850 2100 50  0001 C CNN
-	1    5850 2100
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	5650 1500 5650 1650
-Wire Wire Line
-	5650 1850 5650 2100
-Wire Wire Line
-	5650 2100 5750 2100
-Wire Wire Line
-	5950 2100 5950 1300
 Wire Wire Line
 	5950 1300 5850 1300
 Wire Wire Line
 	5700 2600 5700 2250
 Wire Wire Line
 	5700 2250 5650 2250
-Wire Wire Line
-	5650 2250 5650 2100
-Connection ~ 5650 2100
 $Comp
 L Connector:Conn_Coaxial J4
 U 1 1 624ECBC7
@@ -96,45 +52,12 @@ F 3 " ~" H 6200 1300 50  0001 C CNN
 	1    6200 1300
 	0    -1   -1   0   
 $EndComp
-$Comp
-L Device:C_Small C3
-U 1 1 624ECBCD
-P 6200 1750
-F 0 "C3" H 6292 1796 50  0000 L CNN
-F 1 "18 pF" H 6292 1705 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0201_0603Metric" H 6200 1750 50  0001 C CNN
-F 3 "~" H 6200 1750 50  0001 C CNN
-	1    6200 1750
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:L_Small L4
-U 1 1 624ECBD3
-P 6400 2100
-F 0 "L4" V 6585 2100 50  0000 C CNN
-F 1 "70 nH" V 6494 2100 50  0000 C CNN
-F 2 "Wurth:Wurth4035" H 6400 2100 50  0001 C CNN
-F 3 "~" H 6400 2100 50  0001 C CNN
-	1    6400 2100
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	6200 1500 6200 1650
-Wire Wire Line
-	6200 1850 6200 2100
-Wire Wire Line
-	6200 2100 6300 2100
-Wire Wire Line
-	6500 2100 6500 1300
 Wire Wire Line
 	6500 1300 6400 1300
 Wire Wire Line
 	6000 2600 6000 2250
 Wire Wire Line
 	6000 2250 6200 2250
-Wire Wire Line
-	6200 2250 6200 2100
-Connection ~ 6200 2100
 $Comp
 L Connector:Conn_Coaxial J5
 U 1 1 624F03CC
@@ -146,39 +69,8 @@ F 3 " ~" H 6450 4550 50  0001 C CNN
 	1    6450 4550
 	0    1    1    0   
 $EndComp
-$Comp
-L Device:C_Small C4
-U 1 1 624F03D2
-P 6450 4100
-F 0 "C4" H 6358 4054 50  0000 R CNN
-F 1 "18 pF" H 6358 4145 50  0000 R CNN
-F 2 "Capacitor_SMD:C_0201_0603Metric" H 6450 4100 50  0001 C CNN
-F 3 "~" H 6450 4100 50  0001 C CNN
-	1    6450 4100
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:L_Small L3
-U 1 1 624F03D8
-P 6250 3750
-F 0 "L3" V 6069 3750 50  0000 C CNN
-F 1 "70 nH" V 6160 3750 50  0000 C CNN
-F 2 "Wurth:Wurth4035" H 6250 3750 50  0001 C CNN
-F 3 "~" H 6250 3750 50  0001 C CNN
-	1    6250 3750
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	6450 4350 6450 4200
-Wire Wire Line
-	6450 4000 6450 3750
-Wire Wire Line
-	6450 3750 6350 3750
-Wire Wire Line
-	6150 3750 6150 4550
 Wire Wire Line
 	6150 4550 6250 4550
-Connection ~ 6450 3750
 $Comp
 L Connector:Conn_Coaxial J3
 U 1 1 624F03E5
@@ -190,99 +82,27 @@ F 3 " ~" H 5900 4550 50  0001 C CNN
 	1    5900 4550
 	0    1    1    0   
 $EndComp
-$Comp
-L Device:C_Small C2
-U 1 1 624F03EB
-P 5900 4100
-F 0 "C2" H 5808 4054 50  0000 R CNN
-F 1 "18 pF" H 5808 4145 50  0000 R CNN
-F 2 "Capacitor_SMD:C_0201_0603Metric" H 5900 4100 50  0001 C CNN
-F 3 "~" H 5900 4100 50  0001 C CNN
-	1    5900 4100
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:L_Small L1
-U 1 1 624F03F1
-P 5700 3750
-F 0 "L1" V 5519 3750 50  0000 C CNN
-F 1 "70 nH" V 5610 3750 50  0000 C CNN
-F 2 "Wurth:Wurth4035" H 5700 3750 50  0001 C CNN
-F 3 "~" H 5700 3750 50  0001 C CNN
-	1    5700 3750
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	5900 4350 5900 4200
-Wire Wire Line
-	5900 4000 5900 3750
-Wire Wire Line
-	5900 3750 5800 3750
-Wire Wire Line
-	5600 3750 5600 4550
 Wire Wire Line
 	5600 4550 5700 4550
-Connection ~ 5900 3750
 Wire Wire Line
 	5700 3250 5700 3550
 Wire Wire Line
 	5700 3550 5900 3550
 Wire Wire Line
-	5900 3550 5900 3750
-Wire Wire Line
 	6000 3250 6000 3450
 Wire Wire Line
 	6000 3450 6450 3450
-Wire Wire Line
-	6450 3450 6450 3750
-$Comp
-L power:GND #PWR0101
-U 1 1 624F2ABF
-P 5950 2100
-F 0 "#PWR0101" H 5950 1850 50  0001 C CNN
-F 1 "GND" H 5955 1927 50  0000 C CNN
-F 2 "" H 5950 2100 50  0001 C CNN
-F 3 "" H 5950 2100 50  0001 C CNN
-	1    5950 2100
-	1    0    0    -1  
-$EndComp
-Connection ~ 5950 2100
 $Comp
 L power:GND #PWR0102
 U 1 1 624F2FAE
-P 6500 2100
-F 0 "#PWR0102" H 6500 1850 50  0001 C CNN
-F 1 "GND" H 6505 1927 50  0000 C CNN
-F 2 "" H 6500 2100 50  0001 C CNN
-F 3 "" H 6500 2100 50  0001 C CNN
-	1    6500 2100
+P 5600 4550
+F 0 "#PWR0102" H 5600 4300 50  0001 C CNN
+F 1 "GND" H 5605 4377 50  0000 C CNN
+F 2 "" H 5600 4550 50  0001 C CNN
+F 3 "" H 5600 4550 50  0001 C CNN
+	1    5600 4550
 	1    0    0    -1  
 $EndComp
-Connection ~ 6500 2100
-$Comp
-L power:GND #PWR0103
-U 1 1 624F3308
-P 5600 3750
-F 0 "#PWR0103" H 5600 3500 50  0001 C CNN
-F 1 "GND" H 5605 3577 50  0000 C CNN
-F 2 "" H 5600 3750 50  0001 C CNN
-F 3 "" H 5600 3750 50  0001 C CNN
-	1    5600 3750
-	-1   0    0    1   
-$EndComp
-Connection ~ 5600 3750
-$Comp
-L power:GND #PWR0104
-U 1 1 624F4C60
-P 6150 3750
-F 0 "#PWR0104" H 6150 3500 50  0001 C CNN
-F 1 "GND" H 6155 3577 50  0000 C CNN
-F 2 "" H 6150 3750 50  0001 C CNN
-F 3 "" H 6150 3750 50  0001 C CNN
-	1    6150 3750
-	-1   0    0    1   
-$EndComp
-Connection ~ 6150 3750
 Wire Wire Line
 	5350 3450 5350 3250
 Wire Wire Line
@@ -331,7 +151,7 @@ $EndComp
 Wire Wire Line
 	4300 3600 4300 3500
 Wire Wire Line
-	4300 3500 5510 3500
+	4300 3500 5150 3500
 Wire Wire Line
 	3850 3850 3850 3800
 Wire Wire Line
@@ -370,9 +190,9 @@ Wire Wire Line
 Wire Wire Line
 	4150 3010 4150 2600
 Wire Wire Line
-	4150 2600 3450 2600
+	4150 2600 3550 2600
 Wire Wire Line
-	3450 2800 4630 2800
+	3450 2800 3800 2800
 Wire Wire Line
 	4630 2800 4630 2850
 Wire Wire Line
@@ -382,13 +202,13 @@ Wire Wire Line
 Wire Wire Line
 	4100 3250 4100 3000
 Wire Wire Line
-	4100 3000 3450 3000
+	4100 3000 3900 3000
 Wire Wire Line
 	5200 2600 4470 2600
 Wire Wire Line
 	4470 2600 4470 3200
 Wire Wire Line
-	4470 3200 3450 3200
+	4470 3200 4450 3200
 Wire Wire Line
 	3550 3550 3550 3400
 Wire Wire Line
@@ -402,7 +222,7 @@ Wire Wire Line
 Wire Wire Line
 	3740 2510 3740 2700
 Wire Wire Line
-	3740 2700 3450 2700
+	3740 2700 3600 2700
 Wire Wire Line
 	3600 3500 3600 3100
 Wire Wire Line
@@ -412,9 +232,269 @@ Wire Wire Line
 Wire Wire Line
 	3900 3300 3450 3300
 Wire Wire Line
-	3900 3450 5350 3450
+	3900 3450 4650 3450
 Wire Wire Line
 	3500 3650 3500 2900
 Wire Wire Line
 	3500 2900 3450 2900
+Wire Wire Line
+	5900 3550 5900 4350
+Wire Wire Line
+	6450 4350 6450 3450
+$Comp
+L Connector:Conn_Coaxial J2
+U 1 1 624DADD5
+P 5650 1300
+F 0 "J2" V 5887 1229 50  0000 C CNN
+F 1 "ConY1" V 5796 1229 50  0000 C CNN
+F 2 "Connector_Coaxial:SMA_Amphenol_132134-16_Vertical" H 5650 1300 50  0001 C CNN
+F 3 " ~" H 5650 1300 50  0001 C CNN
+	1    5650 1300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5650 1500 5650 2250
+Wire Wire Line
+	6200 2250 6200 1500
+$Comp
+L power:GND #PWR?
+U 1 1 626032F2
+P 6150 4550
+F 0 "#PWR?" H 6150 4300 50  0001 C CNN
+F 1 "GND" H 6155 4377 50  0000 C CNN
+F 2 "" H 6150 4550 50  0001 C CNN
+F 3 "" H 6150 4550 50  0001 C CNN
+	1    6150 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 62603766
+P 6500 1300
+F 0 "#PWR?" H 6500 1050 50  0001 C CNN
+F 1 "GND" H 6505 1127 50  0000 C CNN
+F 2 "" H 6500 1300 50  0001 C CNN
+F 3 "" H 6500 1300 50  0001 C CNN
+	1    6500 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 62605013
+P 5950 1300
+F 0 "#PWR?" H 5950 1050 50  0001 C CNN
+F 1 "GND" H 5955 1127 50  0000 C CNN
+F 2 "" H 5950 1300 50  0001 C CNN
+F 3 "" H 5950 1300 50  0001 C CNN
+	1    5950 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 62606A14
+P 3750 2200
+F 0 "C?" H 3842 2246 50  0000 L CNN
+F 1 "100 pF" H 3842 2155 50  0000 L CNN
+F 2 "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm" H 3750 2200 50  0001 C CNN
+F 3 "~" H 3750 2200 50  0001 C CNN
+F 4 "C330C101JHG5TA" H 3750 2200 50  0001 C CNN "FarnellNr"
+	1    3750 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 6260D1B3
+P 4150 2200
+F 0 "C?" H 4242 2246 50  0000 L CNN
+F 1 "100 pF" H 4242 2155 50  0000 L CNN
+F 2 "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm" H 4150 2200 50  0001 C CNN
+F 3 "~" H 4150 2200 50  0001 C CNN
+F 4 "C330C101JHG5TA" H 4150 2200 50  0001 C CNN "FarnellNr"
+	1    4150 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 6260D7AC
+P 4550 2200
+F 0 "C?" H 4642 2246 50  0000 L CNN
+F 1 "100 pF" H 4642 2155 50  0000 L CNN
+F 2 "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm" H 4550 2200 50  0001 C CNN
+F 3 "~" H 4550 2200 50  0001 C CNN
+F 4 "C330C101JHG5TA" H 4550 2200 50  0001 C CNN "FarnellNr"
+	1    4550 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 6260DB31
+P 4950 2200
+F 0 "C?" H 5042 2246 50  0000 L CNN
+F 1 "100 pF" H 5042 2155 50  0000 L CNN
+F 2 "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm" H 4950 2200 50  0001 C CNN
+F 3 "~" H 4950 2200 50  0001 C CNN
+F 4 "C330C101JHG5TA" H 4950 2200 50  0001 C CNN "FarnellNr"
+	1    4950 2200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3550 2600 3550 2300
+Wire Wire Line
+	3550 2300 3750 2300
+Connection ~ 3550 2600
+Wire Wire Line
+	3550 2600 3450 2600
+Wire Wire Line
+	3600 2700 3600 2350
+Wire Wire Line
+	3600 2350 4150 2350
+Wire Wire Line
+	4150 2350 4150 2300
+Connection ~ 3600 2700
+Wire Wire Line
+	3600 2700 3450 2700
+Wire Wire Line
+	3800 2800 3800 2450
+Wire Wire Line
+	3800 2450 4550 2450
+Wire Wire Line
+	4550 2450 4550 2300
+Connection ~ 3800 2800
+Wire Wire Line
+	3800 2800 4630 2800
+Wire Wire Line
+	3900 3000 3900 2700
+Wire Wire Line
+	3900 2700 4250 2700
+Wire Wire Line
+	4250 2700 4250 2400
+Wire Wire Line
+	4250 2400 4950 2400
+Wire Wire Line
+	4950 2400 4950 2300
+Connection ~ 3900 3000
+Wire Wire Line
+	3900 3000 3450 3000
+$Comp
+L Device:C_Small C?
+U 1 1 626143E3
+P 4550 4100
+F 0 "C?" H 4642 4146 50  0000 L CNN
+F 1 "100 pF" H 4642 4055 50  0000 L CNN
+F 2 "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm" H 4550 4100 50  0001 C CNN
+F 3 "~" H 4550 4100 50  0001 C CNN
+F 4 "C330C101JHG5TA" H 4550 4100 50  0001 C CNN "FarnellNr"
+	1    4550 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 62615384
+P 5000 4100
+F 0 "C?" H 5092 4146 50  0000 L CNN
+F 1 "100 pF" H 5092 4055 50  0000 L CNN
+F 2 "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm" H 5000 4100 50  0001 C CNN
+F 3 "~" H 5000 4100 50  0001 C CNN
+F 4 "C330C101JHG5TA" H 5000 4100 50  0001 C CNN "FarnellNr"
+	1    5000 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 62615673
+P 5400 4100
+F 0 "C?" H 5492 4146 50  0000 L CNN
+F 1 "100 pF" H 5492 4055 50  0000 L CNN
+F 2 "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm" H 5400 4100 50  0001 C CNN
+F 3 "~" H 5400 4100 50  0001 C CNN
+F 4 "C330C101JHG5TA" H 5400 4100 50  0001 C CNN "FarnellNr"
+	1    5400 4100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4450 3200 4450 3900
+Wire Wire Line
+	4450 3900 4550 3900
+Wire Wire Line
+	4550 3900 4550 4000
+Connection ~ 4450 3200
+Wire Wire Line
+	4450 3200 3450 3200
+Wire Wire Line
+	4650 3450 4650 3750
+Wire Wire Line
+	4650 3750 5000 3750
+Wire Wire Line
+	5000 3750 5000 4000
+Connection ~ 4650 3450
+Wire Wire Line
+	4650 3450 5350 3450
+Wire Wire Line
+	5150 3500 5150 3750
+Wire Wire Line
+	5150 3750 5400 3750
+Wire Wire Line
+	5400 3750 5400 4000
+Connection ~ 5150 3500
+Wire Wire Line
+	5150 3500 5510 3500
+$Comp
+L Device:C_Small C?
+U 1 1 6261BD38
+P 5700 4100
+F 0 "C?" H 5792 4146 50  0000 L CNN
+F 1 "100 pF" H 5792 4055 50  0000 L CNN
+F 2 "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm" H 5700 4100 50  0001 C CNN
+F 3 "~" H 5700 4100 50  0001 C CNN
+F 4 "C330C101JHG5TA" H 5700 4100 50  0001 C CNN "FarnellNr"
+	1    5700 4100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5600 3550 5600 3850
+Wire Wire Line
+	5600 3850 5700 3850
+Wire Wire Line
+	5700 3850 5700 4000
+Connection ~ 5600 3550
+Wire Wire Line
+	3750 2100 4150 2100
+Connection ~ 4150 2100
+Wire Wire Line
+	4150 2100 4550 2100
+Connection ~ 4550 2100
+Wire Wire Line
+	4550 2100 4950 2100
+Wire Wire Line
+	5700 4200 5400 4200
+Connection ~ 5000 4200
+Wire Wire Line
+	5000 4200 4550 4200
+Connection ~ 5400 4200
+Wire Wire Line
+	5400 4200 5000 4200
+$Comp
+L power:GND #PWR?
+U 1 1 626259EE
+P 4550 4200
+F 0 "#PWR?" H 4550 3950 50  0001 C CNN
+F 1 "GND" H 4555 4027 50  0000 C CNN
+F 2 "" H 4550 4200 50  0001 C CNN
+F 3 "" H 4550 4200 50  0001 C CNN
+	1    4550 4200
+	1    0    0    -1  
+$EndComp
+Connection ~ 4550 4200
+$Comp
+L power:GND #PWR?
+U 1 1 62626073
+P 3750 2100
+F 0 "#PWR?" H 3750 1850 50  0001 C CNN
+F 1 "GND" H 3755 1927 50  0000 C CNN
+F 2 "" H 3750 2100 50  0001 C CNN
+F 3 "" H 3750 2100 50  0001 C CNN
+	1    3750 2100
+	-1   0    0    1   
+$EndComp
+Connection ~ 3750 2100
 $EndSCHEMATC
